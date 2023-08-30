@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600;800&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}/* Reset margin and padding for all elements */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+.form-parent-container{
+    background-color: #6b14de;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+.header-form-container{
+    width: 60%;
+    margin: auto;
+}
+.form-heading{
+    background-color: inherit;
+    color: white;
+}
+.form-container{
+    
+    width: 90%;
+    margin: auto;
+}
+.form-fields{
+    padding: 15px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border: none;
+}
+.form-inputs{
+    border-radius: 6px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: inherit;
+}
+.element{
+    margin: 8px;
+    font-size: larger;
+    font-weight: 500;
+    color: white;
+}
+#firstName{
+
+}
+#email{
+
+}
+#enquiry{
+    background-color: inherit;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 6px;
+}
+#comments{
+    background-color: inherit;
+    border: 1px solid white;
+    height: 250px;
+    border-radius: 6px;
+}
+.form-button{
+    background-color: #9e5df5;
+    font-size: x-large;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    font-weight: 700;
+}
+.form-button:hover{
+    background-color: aquamarine;
+    color: black;
+
+}
+.form-options{
+    background-color: #f2f2f2; /* Background color */
+    border: 1px solid #ccc; /* Border */
+    padding: 8px; /* Padding */
+    border-radius: 4px; /* Border radius */
+    font-size: 16px; /* Font size */
+    color: #333; /* Text color */
+    transition: border-color 0.3s, background-color 0.3s; /* Transition effects */
+    cursor: pointer; /* Cursor style */
+    background-color: #a591bf;
+    color: black;
+
+}
+.form-options:hover{
+    background-color: yellow;
+    color: black;
+
+}
+.error{
+    color: red;
+    background-color: inherit;
+    margin: 0px;
+
+}

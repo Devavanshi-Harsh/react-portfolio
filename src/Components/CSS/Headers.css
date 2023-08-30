@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600;800&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}/* Reset margin and padding for all elements */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+.container-Headers{
+    background-color: black;
+    width: 100%;
+    min-width: 300px;
+}
+#Header-Final-Container{
+    width: 70vw;
+    width: 90vw;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons-Headers a{
+    border-radius: 10px;
+    margin: 5px;
+    text-decoration: none;
+    background-color: aquamarine;
+    display: inline-block;
+    padding: 5px;
+    font-size: x-large;
+    font-weight: 700;
+    color: black;
+}
+.icons-Headers a:hover{
+    background-color: yellow;
+}
+.icons-Headers a:active{
+    background-color: gainsboro;
+}
+.contacts a{
+    border-radius: 10px;
+    text-decoration: none;
+    color: aquamarine;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 7px;
+    font-weight: 500; 
+    border-radius: 5px;
+    font-size: larger;
+}
+.contacts a:hover{
+    background-color: yellow;
+    color: black
+}
+@media (max-width : 500px) {
+    #Header-Final-Container{
+        margin: 0%;
+        padding: 0%;
+
+    }
+    .icons-Headers a{
+        border-radius: 10px;
+        margin: 2px;
+        padding: 1px;
+        font-size: medium;
+        font-weight: 400;
+        color: black;
+    }
+    .contacts a{
+        border-radius: 5px;
+        margin: 5px;
+        padding: 2px;
+        font-weight: 500; 
+        border-radius: 5px;
+        font-size: larger;
+    }
+}
+@media (max-width : 300px) {
+    #Header-Final-Container{
+        margin: 0%;
+        padding: 0%;
+        min-width: 300px;
+    }
+    
+    .icons-Headers a{
+        border-radius: 10px;
+        margin: 2px;
+        padding: 1px;
+        font-size: medium;
+        font-weight: 400;
+        color: black;
+    }
+}

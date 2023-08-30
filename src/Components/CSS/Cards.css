@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}/* Reset margin and padding for all elements */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+.card-box{
+    width: 500px;
+    border: 1px solid blue;
+    margin: 5px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+
+
+}
+.card-image{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+.card-title{
+    font-weight: 700;
+    font-size: larger;
+}
+.card-text-container{
+    padding: 5px;
+    margin: 5px;
+}
+.card-message{
+    color:grey;
+}
+.cards-container{
+    background-color: green;
+}
+#cards-header{
+    display: block;
+    background-color: green;
+    color: white;
+    margin: 25px 0px 0px 25px;
+
+}
+.all-cards{
+    margin: 20px;
+    display: flex;
+    flex-flow: row wrap;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600;800;900&family=Signika+Negative:wght@500&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}/* Reset margin and padding for all elements */
+html, body, h1, h2, p{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    min-height: 98vh;
+    text-align: center;
+    background-color: #1B6B93;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    overflow: hidden;
+}
+#img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+#bio{
+    color: white;
+    font-size: 90px;
+    font-weight: 900;
+    width: 90vw;
+    text-transform: capitalize;
+
+}
+#name{
+    /* font-family: 'Signika Negative', sans-serif; */
+    margin-top: 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    
+}
+@media (max-width: 500px){
+    #name{
+        font-size: 25px;
+        text-decoration: underline;
+    }
+    #bio{
+        font-size: 45px;
+        text-transform: capitalize;
+    }
+    #img{
+        width: 100px;
+        height: 100px;
+    }
+
+}
