@@ -8,7 +8,7 @@ const CustomAlert = ({ color, title, msg, setFalse }) => {
         <h2 className='alert-title'>{title}</h2>
         <p className='alert-description'>{msg}</p>
       </div>
-      <button onClick={()=>setFalse(false)}>X</button>
+      <button onClick={()=>setFalse(false)} className='alert-button'>X</button>
 
     </div>
   );

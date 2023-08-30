@@ -14,7 +14,6 @@ function App() {
           <Route path='/' element={<Main />} />
           <Route path='/projects' element={<ProjectSection />} />
           <Route path='/contacts' element={< ContactMeSection />} />
-          <Route path='/' element={App} />
 
         </Routes>
       </BrowserRouter>
