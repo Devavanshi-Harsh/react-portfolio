@@ -4,7 +4,7 @@ import { faLinkedin, faGithub, faHackerrank } from '@fortawesome/free-brands-svg
 import { faHome } from '@fortawesome/free-solid-svg-icons';
 
 import './CSS/Headers.css'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 const Header = () => {
   const [links, setLinks] = useState([]);
   const [projects, setProjects] = useState();
@@ -45,9 +45,9 @@ const Header = () => {
         </nav>
         <nav className='contacts'>
 
-          <a><Link to='/'><FontAwesomeIcon icon={faHome} /></Link></a>
-          <a href={projects} target='.blank' rel="noopener noreferrer"  ><Link to='/projects'>Projects</Link></a>
-          <a><Link to='/contacts'>Contact Me</Link></a>
+          <Link to='main'><FontAwesomeIcon icon={faHome} /></Link>
+          <Link to='projects' smooth={true} duration={500}>Projects</Link>
+          <Link to='contacts' smooth={true} duration={500}>Contact Me</Link>
         </nav>
       </section>
     </header>

@@ -7,7 +7,7 @@ body, h1, h2, p {
     padding: 0;
 }
 .card-box{
-    width: 500px;
+    width: 400px;
     border: 1px solid blue;
     margin: 5px;
     border-radius: 15px;
@@ -35,16 +35,23 @@ body, h1, h2, p {
 }
 .cards-container{
     background-color: green;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
 }
 #cards-header{
     display: block;
     background-color: green;
     color: white;
     margin: 25px 0px 0px 25px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
 
 }
 .all-cards{
     margin: 20px;
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-evenly;
 }

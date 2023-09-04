@@ -8,16 +8,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <div className='App'>
-      <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route path='/' element={<Main />} />
-          <Route path='/projects' element={<ProjectSection />} />
-          <Route path='/contacts' element={< ContactMeSection />} />
-
-        </Routes>
-      </BrowserRouter>
-
+      <Header />
+      <Main />
       <ProjectSection />
       <ContactMeSection />
     </div>

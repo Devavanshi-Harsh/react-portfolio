@@ -11,9 +11,10 @@ body, h1, h2, p {
     background-color: black;
     width: 100%;
     min-width: 300px;
+    position: sticky;
+    top: 0px;
 }
 #Header-Final-Container{
-    width: 70vw;
     width: 90vw;
     margin: auto;
     padding: 5px;
@@ -28,8 +29,8 @@ body, h1, h2, p {
     text-decoration: none;
     background-color: aquamarine;
     display: inline-block;
-    padding: 5px;
-    font-size: x-large;
+    padding: 0px 5px 0px 5px;
+    font-size: xx-large;
     font-weight: 700;
     color: black;
 }
@@ -56,18 +57,13 @@ body, h1, h2, p {
 }
 @media (max-width : 500px) {
     #Header-Final-Container{
+        width: 100%;
         margin: 0%;
-        padding: 0%;
+        padding: 2%;
+
 
     }
-    .icons-Headers a{
-        border-radius: 10px;
-        margin: 2px;
-        padding: 1px;
-        font-size: medium;
-        font-weight: 400;
-        color: black;
-    }
+
     .contacts a{
         border-radius: 5px;
         margin: 5px;
@@ -76,20 +72,16 @@ body, h1, h2, p {
         border-radius: 5px;
         font-size: larger;
     }
+    .icons-Headers a{
+        padding: 0px 3px 0px 3px;
+        font-size: x-large;
+    }
 }
 @media (max-width : 300px) {
     #Header-Final-Container{
+        width: 100%;
         margin: 0%;
         padding: 0%;
         min-width: 300px;
-    }
-    
-    .icons-Headers a{
-        border-radius: 10px;
-        margin: 2px;
-        padding: 1px;
-        font-size: medium;
-        font-weight: 400;
-        color: black;
     }
 }

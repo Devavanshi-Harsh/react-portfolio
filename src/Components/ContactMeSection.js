@@ -28,7 +28,7 @@ const ContactMeSection = () => {
         setInitialValues({name,email,enquiry, comments})
     }
     return (
-        <div className='form-parent-container'>
+        <div className='form-parent-container' id='contacts'>
             <div className='header-form-container'>
                 <h1 className='form-heading'>Contact Me</h1>
                 <form onSubmit={formHander} className='form-container'>

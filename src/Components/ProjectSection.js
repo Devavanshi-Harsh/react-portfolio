@@ -31,7 +31,7 @@ const ProjectSection = () => {
     }, [])
 
     return (
-        <div className='cards-container'>
+        <div className='cards-container' id='projects'>
             <h1 id='cards-header'>Featured Projects</h1>
             <div className='all-cards'>
                 {

@@ -10,7 +10,8 @@ body, h1, h2, p {
 
 .form-parent-container{
     background-color: #6b14de;
-    height: 100vh;
+    padding-top: 80px;
+    height: 100%;
     display: flex;
     flex-flow: row wrap;
     
@@ -22,6 +23,10 @@ body, h1, h2, p {
 .form-heading{
     background-color: inherit;
     color: white;
+    font-size: xx-large;
+    text-align: center;
+    margin: 20px;
+    font-weight: 700;
 }
 .form-container{
     
@@ -102,4 +107,19 @@ body, h1, h2, p {
     background-color: inherit;
     margin: 0px;
 
+}
+@media (max-width:600px) {
+    .header-form-container{
+        width: 100%;
+    }
+    .header-form-container{
+        width: 100%;
+    }
+
+    .form-container{
+        width: 100%;
+    }
+    .form-fields{
+        width: 80%;
+    }
 }
